@@ -121,6 +121,21 @@
     <ol reversed>
       <li>
         <span class=pub-title>
+          Audio-domain Position-independent Backdoor Attack via Unnoticeable Triggers
+        </span>
+        <span class=pub-links>
+          <a href="papers/dong:browser-isolation.pdf.html">PDF</a>
+        </span>
+        <br>
+        <span class=pub-author>
+          Cong Shi, Tianfang Zhang, Zhuohang Li, Huy Phan, Tianming Zhao, Yan Wang, Jian Liu, Bo Yuan, Yingying Chen
+        </span>
+        <br>
+        In <span class=pub-conf>
+          Proceedings of the 28th Annual International Conference on Mobile Computing and Networking (MobiCom 2022)
+        </span>
+        
+        <span class=pub-title>
           Simultaneous Monitoring of Multiple People's Vital Sign Leveraging a Single Phased-MIMO Radar
         </span>
         <span class=pub-links>
@@ -206,79 +221,4 @@
     </ul>
     <hr>
 
-    Updated on 05/10/2022
-
-  <script>
-    function collapse_it(c, i) {
-      console.log(coll);
-      console.log(i)
-      c[i].classList.toggle("active");
-      var content = c[i].nextElementSibling;
-      if (content.style.display === "block") {
-        content.style.display = "none";
-      } else {
-        content.style.display = "block";
-      }
-
-      var j;
-      for (j = 0; j < c.length; j++) {
-        if (j == i) continue;
-        var other_content = c[j].nextElementSibling;
-        if (other_content.style.display === "block") {
-          c[j].classList.toggle("active")
-          other_content.style.display = "none";
-        }
-      } 
-    }
-
-    var coll = document.getElementsByClassName("collapsible");
-    var index;
-
-    for (index = 0; index < coll.length; index++) {
-      coll[index].addEventListener("click", collapse_it.bind(null, coll, index));
-    }
-  </script>
-
-</html>
-
-
-<!--
-    <h2>Work Experience</h2>
-    <ul>
-      <li><strong>Assistant Professor</strong> [August 2020 - Present] <br>
-      College of Information Sciences and Technology, Pennsylvania State University
-      </li>
-      <li><strong>Research Scientist</strong> [February 2019 - August 2020] <br>
-      School of Computer Science, Georgia Institute of Technology
-      </li>
-      <li><strong>Postdoctoral Fellow</strong> [February 2017 - February 2019] <br>
-      School of Computer Science, Georgia Institute of Technology
-      </li>
-      <li><strong>Research Fellow</strong> [July 2016 - January 2017] <br>
-      National University of Singapore, Singapore
-      </li>
-    </ul>
-    <hr>
-    <h2>Professional Experience</h2>
-    <ul>
-      <li><strong>Program Committee Member</strong> <br>
-        ACM Conference on Computer and Communications Security (CCS)
-        <span style="float:right;">[2022]</span> <br>
-        Network and Distributed System Security Symposium (NDSS) 
-        <span style="float:right;">[2022]</span> <br>
-        ACM ASI Conference on Computer and Communications Security (ASIACCS) 
-        <span style="float:right;">[2019, 2021, 2022]</span> <br>
-      </li>
-    </ul>
-    <hr>
-    <h2>Teaching Experience</h2>
-    <ul>
-      <li><strong>IST 454</strong> Computer and Cyber Forensics
-        <span style="float:right;">Fall 2020, Spring 2021, Fall 2021</span><br>
-      </li>
-    </ul>
-    <hr>
-    <br>
-    <br>
-  </body>
--->
+    Updated on 07/04/2022
